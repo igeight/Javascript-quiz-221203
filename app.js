@@ -19,3 +19,24 @@ $button[0].addEventListener("click", () => {
     window.alert("不正解！");
   }
 });
+$button[1].addEventListener("click", () => {
+  if (correct === $button[1].textContent) {
+    window.alert("正解！");
+  } else {
+    window.alert("不正解！");
+  }
+});
+$button[2].addEventListener("click", () => {
+  if (correct === $button[2].textContent) {
+    window.alert("正解！");
+  } else {
+    window.alert("不正解！");
+  }
+});
+$button[3].addEventListener("click", () => {
+  if (correct === $button[3].textContent) {
+    window.alert("正解！");
+  } else {
+    window.alert("不正解！");
+  }
+});
